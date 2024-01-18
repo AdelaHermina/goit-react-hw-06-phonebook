@@ -8,7 +8,7 @@ const Filter = () => {
 
   const handleFilterChange = event => {
     const { value } = event.target;
-    dispatch(updateFilter(value)); // Actualizează filtrul folosind acțiunea updateFilter
+    dispatch(updateFilter(value)); 
   };
 
   return (

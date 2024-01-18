@@ -1,5 +1,5 @@
 import { configureStore } from '@reduxjs/toolkit';
-import { persistReducer, persistStore } from 'redux-persist'; // Adaugă persistStore aici
+import { persistReducer, persistStore } from 'redux-persist'; 
 import storage from 'redux-persist/lib/storage';
 import contactsReducer from './contactsSlice';
 
@@ -16,4 +16,4 @@ export const store = configureStore({
   },
 });
 
-export const persistor = persistStore(store); // Exportă persistor
+export const persistor = persistStore(store); 
